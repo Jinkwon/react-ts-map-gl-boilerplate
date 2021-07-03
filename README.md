@@ -1,5 +1,2 @@
-# react-ts-boilerplate
+# react-ts-map-gl-boilerplate
 simple react ts boilerplate
-
-# Examples 
-https://my-react-ts-boilerplate.herokuapp.com

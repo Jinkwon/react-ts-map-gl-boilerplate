@@ -5,19 +5,25 @@
   "private": true,
   "scripts": {
     "start": "node index.js",
-    "dev": "webpack serve --port 11002 --config webpack.dev.js",
+    "dev": "webpack serve --port 11000 --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "test": "echo 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@react-hook/debounce": "4.0.0",
     "@types/react": "17.0.11",
+    "@types/styled-components": "5.1.11",
+    "axios": "0.21.1",
     "concurrently": "6.2.0",
     "express": "4.17.1",
     "nodemon": "2.0.8",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-map-gl": "5.3.15",
+    "react-resize-observer": "1.1.1",
+    "styled-components": "5.3.0"
   },
   "devDependencies": {
     "@types/react-dom": "17.0.8",
